@@ -8,10 +8,7 @@ export class Http {
         Authorization: 'Bearer ',
       },
     });
-    // this.axios.interceptors.response.use((response) => {
 
-    //   return response;
-    // });
     this.cancelToken = axios.CancelToken;
     this.isCancel = axios.isCancel;
   }
